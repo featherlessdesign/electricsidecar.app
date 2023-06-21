@@ -135,6 +135,7 @@ header.py-3 {
 
 @media (min-width:992px) {
   .floating-phone {
+    position:absolute;
     top: 0px;
     right: -6rem;
     width: 421px;
