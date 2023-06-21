@@ -1,39 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Electric Sidecar</title>
-<style>
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background: #fff;
-    font-family: Arial, sans-serif;
-}
-img {
-    width: 128px;
-    height: 128px;
-    border-radius: 30%;
-    object-fit: cover;
-}
-h1, h2 {
-    text-align: center;
-    margin: 0;
-    color: #262625;
-    font-family: SignPainter, cursive, sans-serif;
-}
-h1 {
-    margin-top: 16pt;
-    margin-bottom: 8pt;
-}
-</style>
+  <title>Electric Sidecar</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/core.css">
 </head>
 <body>
-    <img src="gfx/icon.png" alt="The Electric Sidecar app icon">
-    <h1>Electric Sidecar</h1>
-    <h2>Coming soon</h2>
+<main>
+  <div class="bg-dark">
+    <div class="container">
+      <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+          <span class="site-logo">
+            <svg width="40" height="40"><image xlink:href="/gfx/taycan.charging.svg" src="/gfx/site-logo.png" width="40" height="40"/></svg>
+          </span>
+          <span class="fs-4 logotype">Electric<br/>Sidecar</span>
+        </a>
+
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+          <li class="nav-item"><a href="mailto:jeff@featherless.design?subject=Request to join the Electric Sidecar beta&body=My apple ID is: " class="nav-link">Join the beta</a></li>
+        </ul>
+      </header>
+    </div>
+  </div>
+
+  <div class="bg-dark text-secondary bg-journey text-right">
+    <div class="container py-5">
+      <img src="/gfx/charge-widget.png" width="117px" />
+      <h1 class="display-5 fw-bold text-white">Goodbye, range anxiety.</h1>
+      <div class="align-bottom text-white">
+        <p class="fs-5 mb-4">Meet Electric Sidecar. The app designed to give you peace of mind.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="text-secondary">
+    <div class="container">
+      <div class="row g-4 py-5 justify-content-center">
+        <div class="feature col-sm-4 col-5 text-right">
+          <h3 class="fs-2 text-body-emphasis">SoC at a glance</h3>
+          <p>See state of charge from both your watch and phone.</p>
+        </div>
+        <div class="feature col-sm-1 col-2 text-center">
+          <svg class="feature-logo"><image xlink:href="/gfx/taycan.charging.svg" src="/gfx/site-logo.png" /></svg>
+        </div>
+        <div class="feature col-sm-4 col-5">
+          <h3 class="fs-2 text-body-emphasis">Data when you need it</h3>
+          <p>Dive deep into your vehicle data with the native app.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-dark text-secondary bg-personal">
+    <div class="container py-5">
+      <img src="/gfx/charge-widget.png" width="117px" />
+      <h1 class="display-5 fw-bold text-white">Uniquely yours.</h1>
+      <div class="align-bottom text-white">
+        <p class="fs-5 mb-4">Personalized complications.<br/>Optimized for your watch and phone.</p>
+      </div>
+    </div>
+  </div>
+
+</main>
 </body>
 </html>
