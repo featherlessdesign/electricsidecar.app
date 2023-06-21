@@ -66,14 +66,45 @@ header.py-3 {
   background-position: center center;
 }
 
-@media (min-width:992px) {
-  .bg-journey {
-    background-position: right center;
-  }
+.bg-nightrider {
+  background-color: #080D0E!important;
+  background-image: url("/gfx/nightrider.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 37% center;
+  background-position-y: 100%;
 }
 
 .bg-journey .container {
-  padding-top: 150px!important;
+  padding-top: 100px!important;
+}
+
+.bg-nightrider .container {
+  padding-bottom: 25%!important;
+}
+
+@media (min-width:992px) {
+  .bg-journey .container {
+    padding-top: 150px!important;
+  }
+  
+  .bg-journey {
+    background-position: right center;
+  }
+
+  .bg-nightrider {
+    background-position: left center;
+  }
+}
+
+.soc-widget {
+  width: 58px;
+}
+
+@media (min-width:992px) {
+  .soc-widget {
+    width: 117px;
+  }  
 }
 
 .feature-logo,
@@ -87,5 +118,32 @@ header.py-3 {
   .feature-logo image {
     width: 80px;
     height: 80px;
+  }
+}
+
+.floating {
+  position: relative;
+}
+
+.floating-phone {
+  width: 210px;
+}
+
+.floating-watch {
+  width: 103px;
+}
+
+@media (min-width:992px) {
+  .floating-phone {
+    top: 0px;
+    right: -6rem;
+    width: 421px;
+  }
+
+  .floating-watch {
+    position:absolute;
+    top: 300px;
+    width: 207px;
+    right: 13rem;
   }
 }
