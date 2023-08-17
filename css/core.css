@@ -110,14 +110,14 @@ header.py-3 {
 .feature-logo,
 .feature-logo image {
   width: 40px;
-  height: 40px;
+  height: 26px;
 }
 
 @media (min-width:1200px) {
   .feature-logo,
   .feature-logo image {
     width: 80px;
-    height: 80px;
+    height: 52px;
   }
 }
 
